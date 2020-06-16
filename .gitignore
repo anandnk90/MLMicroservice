@@ -106,5 +106,8 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-#DS Store
+# DS Store
 .DS_Store
+
+# docker password file
+dockerpasswd.txt
