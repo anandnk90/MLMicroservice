@@ -10,4 +10,5 @@ docker build -t ${app} .
 docker image ls
 
 # Step 3: 
-docker run -d -p 8100:80 ${app}
+docker run -d -p 8000:80 ${app}
+docker ps
