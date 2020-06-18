@@ -6,12 +6,7 @@ spec:
   selector:
     app: mlapp
   ports:
-  - name: 'aq'
-    protocol: TCP
-    port: 8090
-    targetPort: 80
-  - name: 'ap'
-    protocol: TCP
-    port: 8081
+  - protocol: TCP
+    port: 8000
     targetPort: 80
   type: NodePort
