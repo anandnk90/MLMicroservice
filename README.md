@@ -7,7 +7,7 @@
 
 This project applies DevOps practices to operationalize a pre-trained 'sklearn' machine learning model. The model has been trained to predict housing prices in Boston according to features like the average number of rooms in a home, highway access, teacher-to-pupil ratios, etc.. The data used for this project has been sourced from Kaggle and can be [found here](https://www.kaggle.com/c/boston-housing).
 
-The project contents can be used for the making, linting, building, testing and upload of docker images to Docker Hub; and the deployment of the uploaded Dcoker image in a Kubernetes cluster.
+The project contents can be used to make, lint, build, test and upload docker images to Docker Hub; and the deployment of the uploaded Docker image in a Kubernetes cluster.
 
 ## Running the app
 
