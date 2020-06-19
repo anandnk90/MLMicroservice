@@ -47,7 +47,7 @@ The project contents can be used to make, lint, build, test and upload docker im
 | Makefile | application make file |
 | requirements.txt | requirements file that lists dependencies |
 | upload_docker.sh | to upload docker file to docker hub |
-| Dockerfile | Docker file |
+| Dockerfile | docker file |
 | run_docker.sh | shell script to create and run docker image |
 | run_kubernetes.sh | to deploy kubernetes |
 | make_prediction_kubernetes.sh | shell script to make prediction when using kubernetes |
