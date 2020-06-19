@@ -1,4 +1,4 @@
-# Machine Learning Microservice API to predict housing prices in Boston
+# Microservice to predict housing prices in Boston
 
 ## Current Status
 [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
