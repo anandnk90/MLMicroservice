@@ -43,7 +43,7 @@ The project contents can be used to make, lint, build, test and upload docker im
 
 | File/Directory | Use |
 |----------------|-----|
-| app.py | Application code |
+| app.py | application code |
 | Makefile | application make file |
 | requirements.txt | requirements file that lists dependencies |
 | upload_docker.sh | to upload docker file to docker hub |
@@ -55,3 +55,4 @@ The project contents can be used to make, lint, build, test and upload docker im
 | kubernetesfiles | directory with kubernetes yaml files |
 | model_data | directory with data for housing prediction |
 | output_txt_files | directory with output logs |
+| .circleci | directory used by circleci; contains circleci configuration file |
