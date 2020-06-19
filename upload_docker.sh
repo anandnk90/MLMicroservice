@@ -8,9 +8,6 @@ dockerpath=${1}
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-#docker login --username=anandnk90 --email=anandnk90@gmail.com
-#echo -n Password:
-#read -s passphrase
 echo "Logging in using password file"
 cat dockerpasswd.txt | docker login --username anandnk90 --password-stdin
 docker tag ${2} $dockerpath:udacitymlapp
