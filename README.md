@@ -41,17 +41,17 @@ The project contents can be used for the making, linting, building, testing and 
 
 ## Files in repository
 
-| File name | Use |
-|-----------|------------------------------------|
-| run_kubernetes.sh | to deploy kubernetes |
+| File/Directory | Use |
+|----------------|-----|
+| app.py | Application code |
+| Makefile | application make file |
+| requirements.txt | requirements file that lists dependencies |
 | upload_docker.sh | to upload docker file to docker hub |
-| kubernetesfiles | directory with kubernetes yaml files |
-| model_data | data for housing prediction |
-| output_txt_files | directory with output logs |
+| Dockerfile | Docker file |
+| run_docker.sh | shell script to create and run docker image |
+| run_kubernetes.sh | to deploy kubernetes |
 | make_prediction_kubernetes.sh | shell script to make prediction when using kubernetes |
 | make_prediction.sh | shell script to make prediction |
-| Dockerfile | Docker file |
-| app.py | Application code |
-| run_docker.sh | shell script to create and run docker image |
-| requirements.txt | requirements file that lists dependencies |
-| Makefile | make file |
+| kubernetesfiles | directory with kubernetes yaml files |
+| model_data | directory with data for housing prediction |
+| output_txt_files | directory with output logs |
